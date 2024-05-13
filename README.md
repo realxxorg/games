@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+
+- 🔭 I’m currently working on a game called Moore Tracer... That is just a small simple little game made using MIT's Scratch software. In the game, the goal is to click the teacher (Mr. Moore, a Computer Networking Academy Teacher at the CVCC) as many times as possible. 
 <!--
 **comfyanorak/comfyanorak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
