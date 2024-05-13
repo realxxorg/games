@@ -1,0 +1,98 @@
+html { 
+    background-color: rgb(0, 0, 0);
+    color: #eebeff;
+    font-family: Orbitron;
+}
+.errorback {
+  text-decoration: none;
+  color: #eebeff;
+  padding: 10px;
+  border: solid 1px #eebeff;
+  border-radius: 30px;
+}
+.center-img {
+    padding: 2%;
+    height: 160px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 400px) {
+  .center-img {
+    padding: 2%;
+    height: 90px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    padding: 16px;
+    background-color: transparent;
+    color: #eebeff;
+    font-size: 30px;
+  }
+  .icon-bar a:hover {
+    background-color: #7800a2;
+  }
+  @media screen and (max-width: 650px) {
+    .icon-bar a {
+      font-size: 20px;
+    }
+  }
+.row {
+    margin-left: 15%;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+    .card {
+      margin-right: 15%;
+    }
+  }
+  .card {
+    border: solid 2px #000;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .button {
+    font-family: orbitron;
+    border: solid 0.5px #eebeff;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #eebeff;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .button:hover {
+    background-color: #7800a2;
+  }
